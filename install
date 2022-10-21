@@ -1,0 +1,5 @@
+echo ' Installations after converting 64bit to 32bit'
+
+pkg update && pkg upgrade -y
+pkg install python git binutils termux-elf-cleaner -y
+pip install cython
